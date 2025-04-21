@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.apd545_final_project.controller.DashboardController">
+
+    <top>
+        <MenuBar>
+            <Menu text="File">
+                <MenuItem text="Exit" onAction="#handleExit"/>
+            </Menu>
+            <Menu text="Transactions">
+                <MenuItem text="Add Transaction" onAction="#openAddTransaction"/>
+    			<MenuItem text="Edit Transaction" onAction="#openEditTransaction"/>
+    			<MenuItem text="Delete Transaction" onAction="#deleteTransaction"/>
+            </Menu>
+            <!-- New menu for Reports -->
+    		<Menu text="Reports">
+        		<MenuItem text="View Summary" onAction="#viewSummary"/>
+    		</Menu>
+    		
+    		<Menu text="Budget">
+        		<MenuItem text="Update Budget" onAction="#openUpdateBudget"/>
+    		</Menu>
+        </MenuBar>
+    </top>
+
+    <center>
+        <TableView fx:id="transactionTable">
+            <columns>
+                <TableColumn text="Type" fx:id="colType"/>
+                <TableColumn text="Date" fx:id="colDate"/>
+                <TableColumn text="Amount" fx:id="colAmount"/>
+                <TableColumn text="Category" fx:id="colCategory"/>
+                <TableColumn text="Description" fx:id="colDescription"/>
+            </columns>
+        </TableView>
+    </center>
+</BorderPane>

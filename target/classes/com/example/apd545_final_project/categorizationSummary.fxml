@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane prefHeight="582.0" prefWidth="803.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.apd545_final_project.controller.CategorizationSummaryController">
+
+    <top>
+        <MenuBar>
+            <Menu text="File">
+                <MenuItem onAction="#handleExit" text="Exit" />
+            </Menu>
+            <Menu text="Transactions">
+                <MenuItem onAction="#openAddTransaction" text="Add Transaction" />
+                <MenuItem onAction="#openEditTransaction" text="Edit Transaction" />
+                <MenuItem onAction="#deleteTransaction" text="Delete Transaction" />
+            </Menu>
+            <Menu text="Reports">
+                <MenuItem onAction="#viewSummary" text="View Summary" />
+                <MenuItem onAction="#viewBudget" text="View Budget" />
+            </Menu>
+            
+            
+    		<Menu text="Budget">
+        		<MenuItem onAction="#openUpdateBudget" text="Update Budget" />
+    		</Menu>
+    		
+        </MenuBar>
+    </top>
+
+    <center>
+        <HBox spacing="20">
+            <VBox alignment="CENTER" spacing="10">
+                <Label text="Spending Summary">
+                    <style>
+                        -fx-font-size: 18px;
+                    </style>
+                </Label>
+                <BarChart fx:id="spendingBarChart" title="Monthly Expenses">
+                    <xAxis>
+                        <CategoryAxis fx:id="categoryAxis" />
+                    </xAxis>
+                    <yAxis>
+                        <NumberAxis fx:id="amountAxis" />
+                    </yAxis>
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+                </BarChart>
+                <PieChart fx:id="categoryPieChart" title="Expenses by Category">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin></PieChart>
+            </VBox>
+            <VBox alignment="CENTER" spacing="10">
+                <Label text="Budget Management">
+                    <style>
+                        -fx-font-size: 18px;
+                    </style>
+                </Label>
+                <TableView fx:id="budgetTable">
+                    <columns>
+                        <TableColumn fx:id="colCategory" text="Category" />
+                        <TableColumn fx:id="colLimit" text="Budget Limit" />
+                        <TableColumn fx:id="colCurrentSpending" text="Current Spending" />
+                    </columns>
+                </TableView>
+            </VBox>
+        </HBox>
+    </center>
+   <padding>
+      <Insets bottom="5.0" />
+   </padding>
+
+</BorderPane>

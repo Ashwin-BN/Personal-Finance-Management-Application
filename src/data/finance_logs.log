@@ -1,0 +1,2146 @@
+Apr 13, 2025 10:38:14 P.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 13, 2025 10:39:52 P.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 13, 2025 10:39:53 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 13, 2025 10:39:53 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 13, 2025 10:39:53 P.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+SEVERE: Failed to fetch transactions
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: transactions)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.newSQLException(DB.java:1179)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.newSQLException(DB.java:1190)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.throwex(DB.java:1150)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.NativeDB.prepare(NativeDB.java:135)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.prepare(DB.java:264)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc3.JDBC3Statement.lambda$executeQuery$1(JDBC3Statement.java:87)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc3.JDBC3Statement.withConnectionTimeout(JDBC3Statement.java:458)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc3.JDBC3Statement.executeQuery(JDBC3Statement.java:85)
+	at com.example.apd545_final_project/com.example.apd545_final_project.database.DatabaseHandler.fetchTransactions(DatabaseHandler.java:133)
+	at com.example.apd545_final_project/com.example.apd545_final_project.controller.DashboardController.loadTransactions(DashboardController.java:44)
+	at com.example.apd545_final_project/com.example.apd545_final_project.controller.DashboardController.initialize(DashboardController.java:39)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@22-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@22-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2693)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2568)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3381)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3337)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3305)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3277)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:3253)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader.load(FXMLLoader.java:3246)
+	at com.example.apd545_final_project/com.example.apd545_final_project.Application.start(Application.java:11)
+	at javafx.graphics@22-ea/com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$9(LauncherImpl.java:839)
+	at javafx.graphics@22-ea/com.sun.javafx.application.PlatformImpl.lambda$runAndWait$12(PlatformImpl.java:483)
+	at javafx.graphics@22-ea/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:456)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@22-ea/com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:455)
+	at javafx.graphics@22-ea/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at javafx.graphics@22-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@22-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+Apr 13, 2025 10:40:04 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 13, 2025 10:40:04 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 13, 2025 10:40:04 P.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+SEVERE: Failed to fetch transactions
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: transactions)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.newSQLException(DB.java:1179)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.newSQLException(DB.java:1190)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.throwex(DB.java:1150)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.NativeDB.prepare(NativeDB.java:135)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.prepare(DB.java:264)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc3.JDBC3Statement.lambda$executeQuery$1(JDBC3Statement.java:87)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc3.JDBC3Statement.withConnectionTimeout(JDBC3Statement.java:458)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc3.JDBC3Statement.executeQuery(JDBC3Statement.java:85)
+	at com.example.apd545_final_project/com.example.apd545_final_project.database.DatabaseHandler.fetchTransactions(DatabaseHandler.java:133)
+	at com.example.apd545_final_project/com.example.apd545_final_project.controller.DashboardController.loadTransactions(DashboardController.java:44)
+	at com.example.apd545_final_project/com.example.apd545_final_project.controller.DashboardController.openAddTransaction(DashboardController.java:66)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@22-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@22-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1860)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1731)
+	at javafx.base@22-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@22-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@22-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@22-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@22-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.controls@22-ea/javafx.scene.control.MenuItem.fire(MenuItem.java:459)
+	at javafx.controls@22-ea/com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.doSelect(ContextMenuContent.java:1415)
+	at javafx.controls@22-ea/com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.lambda$createChildren$12(ContextMenuContent.java:1368)
+	at javafx.base@22-ea/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@22-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@22-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@22-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@22-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@22-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@22-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@22-ea/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@22-ea/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@22-ea/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@22-ea/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@22-ea/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@22-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@22-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+Apr 13, 2025 10:58:56 P.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 13, 2025 10:58:57 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 13, 2025 10:58:57 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 13, 2025 10:58:57 P.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+SEVERE: Failed to fetch transactions
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: transactions)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.newSQLException(DB.java:1179)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.newSQLException(DB.java:1190)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.throwex(DB.java:1150)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.NativeDB.prepare(NativeDB.java:135)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.prepare(DB.java:264)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc3.JDBC3Statement.lambda$executeQuery$1(JDBC3Statement.java:87)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc3.JDBC3Statement.withConnectionTimeout(JDBC3Statement.java:458)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc3.JDBC3Statement.executeQuery(JDBC3Statement.java:85)
+	at com.example.apd545_final_project/com.example.apd545_final_project.database.DatabaseHandler.fetchTransactions(DatabaseHandler.java:133)
+	at com.example.apd545_final_project/com.example.apd545_final_project.controller.DashboardController$1.call(DashboardController.java:49)
+	at com.example.apd545_final_project/com.example.apd545_final_project.controller.DashboardController$1.call(DashboardController.java:1)
+	at javafx.graphics@22-ea/javafx.concurrent.Task$TaskCallable.call(Task.java:1399)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+Apr 13, 2025 11:00:54 P.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 13, 2025 11:00:54 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 13, 2025 11:00:54 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 13, 2025 11:00:54 P.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 0 transactions from DB
+Apr 13, 2025 11:01:03 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 13, 2025 11:01:03 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 13, 2025 11:01:03 P.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 0 transactions from DB
+Apr 13, 2025 11:01:10 P.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 13, 2025 11:01:10 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 13, 2025 11:01:10 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 13, 2025 11:01:10 P.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 0 transactions from DB
+Apr 13, 2025 11:01:43 P.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 13, 2025 11:01:43 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 13, 2025 11:01:43 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 13, 2025 11:01:43 P.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 0 transactions from DB
+Apr 13, 2025 11:01:48 P.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 13, 2025 11:01:49 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 13, 2025 11:01:49 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 13, 2025 11:01:49 P.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 0 transactions from DB
+Apr 13, 2025 11:01:55 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 13, 2025 11:01:55 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 13, 2025 11:01:55 P.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 0 transactions from DB
+Apr 13, 2025 11:11:36 P.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 13, 2025 11:11:36 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 13, 2025 11:11:37 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 13, 2025 11:11:37 P.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 0 transactions from DB
+Apr 13, 2025 11:11:57 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 13, 2025 11:11:57 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 13, 2025 11:11:57 P.M. com.example.apd545_final_project.database.DatabaseHandler insertTransaction
+INFO: Transaction inserted successfully
+Apr 13, 2025 11:15:27 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 13, 2025 11:15:27 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 13, 2025 11:15:27 P.M. com.example.apd545_final_project.database.DatabaseHandler insertTransaction
+INFO: Transaction inserted successfully
+Apr 13, 2025 11:15:28 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 13, 2025 11:15:28 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 13, 2025 11:15:28 P.M. com.example.apd545_final_project.database.DatabaseHandler insertTransaction
+INFO: Transaction inserted successfully
+Apr 13, 2025 11:17:53 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 13, 2025 11:17:53 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 13, 2025 11:17:53 P.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 3 transactions from DB
+Apr 13, 2025 11:17:56 P.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 13, 2025 11:17:57 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 13, 2025 11:17:57 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 13, 2025 11:17:57 P.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 3 transactions from DB
+Apr 13, 2025 11:20:39 P.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 13, 2025 11:20:40 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 13, 2025 11:20:40 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 13, 2025 11:20:40 P.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 3 transactions from DB
+Apr 13, 2025 11:21:00 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 13, 2025 11:21:00 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 13, 2025 11:21:00 P.M. com.example.apd545_final_project.database.DatabaseHandler insertTransaction
+INFO: Transaction inserted successfully
+Apr 13, 2025 11:21:00 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 13, 2025 11:21:00 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 13, 2025 11:21:00 P.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 4 transactions from DB
+Apr 13, 2025 11:35:51 P.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 13, 2025 11:35:51 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 13, 2025 11:35:52 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 13, 2025 11:35:52 P.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 4 transactions from DB
+Apr 13, 2025 11:36:05 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 13, 2025 11:36:05 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 13, 2025 11:36:05 P.M. com.example.apd545_final_project.database.DatabaseHandler insertTransaction
+INFO: Transaction inserted successfully
+Apr 13, 2025 11:36:05 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 13, 2025 11:36:05 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 13, 2025 11:36:05 P.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 5 transactions from DB
+Apr 13, 2025 11:36:19 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 13, 2025 11:36:19 P.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 13, 2025 11:36:19 P.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 5 transactions from DB
+Apr 13, 2025 11:49:32 P.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 13, 2025 11:49:40 P.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 13, 2025 11:51:07 P.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 13, 2025 11:55:23 P.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 14, 2025 12:11:33 A.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 14, 2025 12:11:34 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 12:11:35 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 12:11:35 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 5 transactions from DB
+Apr 14, 2025 12:11:44 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 12:11:44 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 12:11:44 A.M. com.example.apd545_final_project.database.DatabaseHandler deleteTransaction
+INFO: Transaction Deleted successfully
+Apr 14, 2025 12:11:44 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 12:11:44 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 12:11:44 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 5 transactions from DB
+Apr 14, 2025 12:11:48 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 12:11:48 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 12:11:48 A.M. com.example.apd545_final_project.database.DatabaseHandler deleteTransaction
+INFO: Transaction Deleted successfully
+Apr 14, 2025 12:11:48 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 12:11:48 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 12:11:48 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 5 transactions from DB
+Apr 14, 2025 12:11:59 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 12:11:59 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 12:11:59 A.M. com.example.apd545_final_project.database.DatabaseHandler deleteTransaction
+INFO: Transaction Deleted successfully
+Apr 14, 2025 12:11:59 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 12:11:59 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 12:11:59 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 5 transactions from DB
+Apr 14, 2025 12:13:31 A.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 14, 2025 12:13:32 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 12:13:32 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 12:13:32 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 5 transactions from DB
+Apr 14, 2025 12:16:09 A.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 14, 2025 12:16:09 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 12:16:10 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 12:16:10 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 5 transactions from DB
+Apr 14, 2025 12:16:33 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 12:16:33 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 12:16:33 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 5 transactions from DB
+Apr 14, 2025 12:16:36 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 12:16:36 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 12:16:36 A.M. com.example.apd545_final_project.database.DatabaseHandler deleteTransaction
+INFO: Transaction Deleted successfully
+Apr 14, 2025 12:16:36 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 12:16:36 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 12:16:36 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 5 transactions from DB
+Apr 14, 2025 12:25:21 A.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 14, 2025 12:25:21 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 12:25:21 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 12:25:21 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 5 transactions from DB
+Apr 14, 2025 12:25:27 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 12:25:27 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 12:25:27 A.M. com.example.apd545_final_project.database.DatabaseHandler deleteTransaction
+INFO: Transaction Deleted successfully
+Apr 14, 2025 12:25:27 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 12:25:27 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 12:25:27 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 4 transactions from DB
+Apr 14, 2025 12:25:30 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 12:25:30 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 12:25:31 A.M. com.example.apd545_final_project.database.DatabaseHandler deleteTransaction
+INFO: Transaction Deleted successfully
+Apr 14, 2025 12:25:31 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 12:25:31 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 12:25:31 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 3 transactions from DB
+Apr 14, 2025 12:36:36 A.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 14, 2025 12:36:37 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 12:36:37 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 12:36:37 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 3 transactions from DB
+Apr 14, 2025 12:37:58 A.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 14, 2025 12:37:58 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 12:37:59 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 12:37:59 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 3 transactions from DB
+Apr 14, 2025 12:38:51 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 12:38:51 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 12:38:51 A.M. com.example.apd545_final_project.database.DatabaseHandler updateTransaction
+INFO: Transaction Updated successfully
+Apr 14, 2025 12:38:51 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 12:38:51 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 12:38:51 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 3 transactions from DB
+Apr 14, 2025 12:39:20 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 12:39:20 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 12:39:20 A.M. com.example.apd545_final_project.database.DatabaseHandler deleteTransaction
+INFO: Transaction Deleted successfully
+Apr 14, 2025 12:39:20 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 12:39:20 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 12:39:20 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 2 transactions from DB
+Apr 14, 2025 12:41:05 A.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 14, 2025 12:41:05 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 12:41:06 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 12:41:06 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 2 transactions from DB
+Apr 14, 2025 12:41:11 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 12:41:11 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 12:41:11 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 2 transactions from DB
+Apr 14, 2025 12:50:42 A.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 14, 2025 12:52:16 A.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 14, 2025 12:53:58 A.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 14, 2025 12:53:59 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 12:53:59 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 12:53:59 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 2 transactions from DB
+Apr 14, 2025 12:53:59 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 12:53:59 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 12:53:59 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 12:53:59 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 12:53:59 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 12:53:59 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 1:38:38 A.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 14, 2025 1:41:28 A.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 14, 2025 1:41:29 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 1:41:29 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 1:41:29 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 2 transactions from DB
+Apr 14, 2025 1:43:25 A.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 14, 2025 1:43:25 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 1:43:26 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 1:43:26 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 2 transactions from DB
+Apr 14, 2025 1:43:27 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 1:43:27 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 1:43:27 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 1:43:27 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 1:43:27 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in food for 0/2024 is 0.0
+Apr 14, 2025 1:43:27 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 1:43:27 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 1:43:27 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in gas for 0/2024 is 0.0
+Apr 14, 2025 1:43:27 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 1:43:27 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 1:43:27 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchBudgets
+SEVERE: Failed to fetch budgets
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near "limit": syntax error)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.newSQLException(DB.java:1179)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.newSQLException(DB.java:1190)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.throwex(DB.java:1150)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.NativeDB.prepare(NativeDB.java:135)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.prepare(DB.java:264)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:46)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:32)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:34)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:225)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+	at com.example.apd545_final_project/com.example.apd545_final_project.database.DatabaseHandler.fetchBudgets(DatabaseHandler.java:207)
+	at com.example.apd545_final_project/com.example.apd545_final_project.controller.CategorizationSummaryController.loadBudgetTable(CategorizationSummaryController.java:60)
+	at com.example.apd545_final_project/com.example.apd545_final_project.controller.CategorizationSummaryController.initialize(CategorizationSummaryController.java:33)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@22-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@22-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2693)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2568)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader.load(FXMLLoader.java:2536)
+	at com.example.apd545_final_project/com.example.apd545_final_project.controller.DashboardController.viewSummary(DashboardController.java:131)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@22-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@22-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1860)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1731)
+	at javafx.base@22-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@22-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@22-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@22-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@22-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.controls@22-ea/javafx.scene.control.MenuItem.fire(MenuItem.java:459)
+	at javafx.controls@22-ea/com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.doSelect(ContextMenuContent.java:1415)
+	at javafx.controls@22-ea/com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.lambda$createChildren$12(ContextMenuContent.java:1368)
+	at javafx.base@22-ea/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@22-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@22-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@22-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@22-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@22-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@22-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@22-ea/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@22-ea/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@22-ea/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@22-ea/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@22-ea/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@22-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@22-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+Apr 14, 2025 1:46:03 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 1:46:03 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 1:46:03 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 1:46:03 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 1:46:03 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in food for 0/2024 is 0.0
+Apr 14, 2025 1:46:03 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 1:46:03 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 1:46:03 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in gas for 0/2024 is 0.0
+Apr 14, 2025 1:46:03 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 1:46:03 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 1:46:03 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchBudgets
+SEVERE: Failed to fetch budgets
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near "limit": syntax error)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.newSQLException(DB.java:1179)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.newSQLException(DB.java:1190)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.throwex(DB.java:1150)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.NativeDB.prepare(NativeDB.java:135)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.prepare(DB.java:264)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:46)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:32)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:34)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:225)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+	at com.example.apd545_final_project/com.example.apd545_final_project.database.DatabaseHandler.fetchBudgets(DatabaseHandler.java:207)
+	at com.example.apd545_final_project/com.example.apd545_final_project.controller.CategorizationSummaryController.loadBudgetTable(CategorizationSummaryController.java:60)
+	at com.example.apd545_final_project/com.example.apd545_final_project.controller.CategorizationSummaryController.initialize(CategorizationSummaryController.java:33)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@22-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@22-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2693)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2568)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader.load(FXMLLoader.java:2536)
+	at com.example.apd545_final_project/com.example.apd545_final_project.controller.DashboardController.viewSummary(DashboardController.java:131)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@22-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@22-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1860)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1731)
+	at javafx.base@22-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@22-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@22-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@22-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@22-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.controls@22-ea/javafx.scene.control.MenuItem.fire(MenuItem.java:459)
+	at javafx.controls@22-ea/com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.doSelect(ContextMenuContent.java:1415)
+	at javafx.controls@22-ea/com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.lambda$createChildren$12(ContextMenuContent.java:1368)
+	at javafx.base@22-ea/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@22-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@22-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@22-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@22-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@22-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@22-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@22-ea/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@22-ea/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@22-ea/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@22-ea/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@22-ea/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@22-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@22-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+Apr 14, 2025 1:46:11 A.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 14, 2025 1:46:11 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 1:46:12 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 1:46:12 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 2 transactions from DB
+Apr 14, 2025 1:46:14 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 1:46:14 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 1:46:14 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 1:46:14 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 1:46:14 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in food for 0/2024 is 0.0
+Apr 14, 2025 1:46:14 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 1:46:14 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 1:46:14 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in gas for 0/2024 is 0.0
+Apr 14, 2025 1:46:14 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 1:46:14 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 1:46:14 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchBudgets
+SEVERE: Failed to fetch budgets
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near "limit": syntax error)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.newSQLException(DB.java:1179)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.newSQLException(DB.java:1190)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.throwex(DB.java:1150)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.NativeDB.prepare(NativeDB.java:135)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.prepare(DB.java:264)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:46)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:32)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:34)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:225)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+	at com.example.apd545_final_project/com.example.apd545_final_project.database.DatabaseHandler.fetchBudgets(DatabaseHandler.java:207)
+	at com.example.apd545_final_project/com.example.apd545_final_project.controller.CategorizationSummaryController.loadBudgetTable(CategorizationSummaryController.java:60)
+	at com.example.apd545_final_project/com.example.apd545_final_project.controller.CategorizationSummaryController.initialize(CategorizationSummaryController.java:33)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@22-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@22-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2693)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2568)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader.load(FXMLLoader.java:2536)
+	at com.example.apd545_final_project/com.example.apd545_final_project.controller.DashboardController.viewSummary(DashboardController.java:131)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@22-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@22-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1860)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1731)
+	at javafx.base@22-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@22-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@22-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@22-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@22-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.controls@22-ea/javafx.scene.control.MenuItem.fire(MenuItem.java:459)
+	at javafx.controls@22-ea/com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.doSelect(ContextMenuContent.java:1415)
+	at javafx.controls@22-ea/com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.lambda$createChildren$12(ContextMenuContent.java:1368)
+	at javafx.base@22-ea/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@22-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@22-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@22-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@22-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@22-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@22-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@22-ea/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@22-ea/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@22-ea/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@22-ea/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@22-ea/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@22-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@22-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+Apr 14, 2025 1:46:46 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 1:46:46 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 1:46:46 A.M. com.example.apd545_final_project.database.DatabaseHandler insertTransaction
+INFO: Transaction inserted successfully
+Apr 14, 2025 1:46:46 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 1:46:46 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 1:46:46 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 3 transactions from DB
+Apr 14, 2025 1:47:01 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 1:47:01 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 1:47:01 A.M. com.example.apd545_final_project.database.DatabaseHandler insertTransaction
+INFO: Transaction inserted successfully
+Apr 14, 2025 1:47:01 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 1:47:01 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 1:47:01 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 4 transactions from DB
+Apr 14, 2025 1:47:15 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 1:47:15 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 1:47:15 A.M. com.example.apd545_final_project.database.DatabaseHandler insertTransaction
+INFO: Transaction inserted successfully
+Apr 14, 2025 1:47:15 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 1:47:15 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 1:47:15 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 5 transactions from DB
+Apr 14, 2025 1:47:17 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 1:47:17 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 1:47:17 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 1:47:17 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 1:47:17 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in food for 0/2024 is 0.0
+Apr 14, 2025 1:47:17 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 1:47:17 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 1:47:17 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in gas for 0/2024 is 0.0
+Apr 14, 2025 1:47:17 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 1:47:17 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 1:47:17 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in payslip for 0/2024 is 0.0
+Apr 14, 2025 1:47:17 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 1:47:17 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 1:47:17 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchBudgets
+SEVERE: Failed to fetch budgets
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near "limit": syntax error)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.newSQLException(DB.java:1179)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.newSQLException(DB.java:1190)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.throwex(DB.java:1150)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.NativeDB.prepare(NativeDB.java:135)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.prepare(DB.java:264)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:46)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:32)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:34)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:225)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+	at com.example.apd545_final_project/com.example.apd545_final_project.database.DatabaseHandler.fetchBudgets(DatabaseHandler.java:207)
+	at com.example.apd545_final_project/com.example.apd545_final_project.controller.CategorizationSummaryController.loadBudgetTable(CategorizationSummaryController.java:60)
+	at com.example.apd545_final_project/com.example.apd545_final_project.controller.CategorizationSummaryController.initialize(CategorizationSummaryController.java:33)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@22-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@22-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2693)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2568)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader.load(FXMLLoader.java:2536)
+	at com.example.apd545_final_project/com.example.apd545_final_project.controller.DashboardController.viewSummary(DashboardController.java:131)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@22-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@22-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1860)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1731)
+	at javafx.base@22-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@22-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@22-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@22-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@22-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.controls@22-ea/javafx.scene.control.MenuItem.fire(MenuItem.java:459)
+	at javafx.controls@22-ea/com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.doSelect(ContextMenuContent.java:1415)
+	at javafx.controls@22-ea/com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.lambda$createChildren$12(ContextMenuContent.java:1368)
+	at javafx.base@22-ea/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@22-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@22-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@22-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@22-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@22-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@22-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@22-ea/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@22-ea/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@22-ea/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@22-ea/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@22-ea/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@22-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@22-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+Apr 14, 2025 2:11:06 A.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 14, 2025 2:11:06 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:11:07 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:11:07 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 5 transactions from DB
+Apr 14, 2025 2:11:14 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:11:14 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:11:14 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 5 transactions from DB
+Apr 14, 2025 2:11:25 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:11:25 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:11:25 A.M. com.example.apd545_final_project.database.DatabaseHandler deleteTransaction
+INFO: Transaction Deleted successfully
+Apr 14, 2025 2:11:25 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:11:25 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:11:25 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 4 transactions from DB
+Apr 14, 2025 2:11:28 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:11:28 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:11:28 A.M. com.example.apd545_final_project.database.DatabaseHandler deleteTransaction
+INFO: Transaction Deleted successfully
+Apr 14, 2025 2:11:28 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:11:28 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:11:28 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 3 transactions from DB
+Apr 14, 2025 2:11:31 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:11:31 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:11:31 A.M. com.example.apd545_final_project.database.DatabaseHandler deleteTransaction
+INFO: Transaction Deleted successfully
+Apr 14, 2025 2:11:31 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:11:31 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:11:31 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 2 transactions from DB
+Apr 14, 2025 2:11:34 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:11:34 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:11:34 A.M. com.example.apd545_final_project.database.DatabaseHandler deleteTransaction
+INFO: Transaction Deleted successfully
+Apr 14, 2025 2:11:34 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:11:34 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:11:34 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 1 transactions from DB
+Apr 14, 2025 2:11:36 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:11:36 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:11:36 A.M. com.example.apd545_final_project.database.DatabaseHandler deleteTransaction
+INFO: Transaction Deleted successfully
+Apr 14, 2025 2:11:36 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:11:36 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:11:36 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 0 transactions from DB
+Apr 14, 2025 2:11:45 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:11:45 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:11:45 A.M. com.example.apd545_final_project.database.DatabaseHandler insertTransaction
+INFO: Transaction inserted successfully
+Apr 14, 2025 2:11:45 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:11:45 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:11:45 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 1 transactions from DB
+Apr 14, 2025 2:11:54 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:11:54 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:11:54 A.M. com.example.apd545_final_project.database.DatabaseHandler insertTransaction
+INFO: Transaction inserted successfully
+Apr 14, 2025 2:11:54 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:11:54 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:11:54 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 2 transactions from DB
+Apr 14, 2025 2:12:03 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:12:03 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:12:03 A.M. com.example.apd545_final_project.database.DatabaseHandler insertTransaction
+INFO: Transaction inserted successfully
+Apr 14, 2025 2:12:03 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:12:03 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:12:03 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 3 transactions from DB
+Apr 14, 2025 2:12:04 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:12:04 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:12:04 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:12:04 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:12:04 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Food for 0/2024 is 0.0
+Apr 14, 2025 2:12:04 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:12:04 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:12:04 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Bills for 0/2024 is 0.0
+Apr 14, 2025 2:13:13 A.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 14, 2025 2:13:13 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:13:13 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:13:13 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 3 transactions from DB
+Apr 14, 2025 2:13:15 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:13:15 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:13:15 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:13:15 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:13:15 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Food for 0/2024 is 0.0
+Apr 14, 2025 2:13:15 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:13:15 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:13:15 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Bills for 0/2024 is 0.0
+Apr 14, 2025 2:13:15 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:13:15 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:13:15 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchBudgets
+SEVERE: Failed to fetch budgets
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near "limit": syntax error)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.newSQLException(DB.java:1179)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.newSQLException(DB.java:1190)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.throwex(DB.java:1150)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.NativeDB.prepare(NativeDB.java:135)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.prepare(DB.java:264)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:46)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:32)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:34)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:225)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+	at com.example.apd545_final_project/com.example.apd545_final_project.database.DatabaseHandler.fetchBudgets(DatabaseHandler.java:207)
+	at com.example.apd545_final_project/com.example.apd545_final_project.controller.CategorizationSummaryController.loadBudgetTable(CategorizationSummaryController.java:64)
+	at com.example.apd545_final_project/com.example.apd545_final_project.controller.CategorizationSummaryController.initialize(CategorizationSummaryController.java:33)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@22-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@22-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2693)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2568)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader.load(FXMLLoader.java:2536)
+	at com.example.apd545_final_project/com.example.apd545_final_project.controller.DashboardController.viewSummary(DashboardController.java:131)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@22-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@22-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1860)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1731)
+	at javafx.base@22-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@22-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@22-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@22-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@22-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.controls@22-ea/javafx.scene.control.MenuItem.fire(MenuItem.java:459)
+	at javafx.controls@22-ea/com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.doSelect(ContextMenuContent.java:1415)
+	at javafx.controls@22-ea/com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.lambda$createChildren$12(ContextMenuContent.java:1368)
+	at javafx.base@22-ea/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@22-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@22-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@22-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@22-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@22-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@22-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@22-ea/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@22-ea/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@22-ea/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@22-ea/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@22-ea/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@22-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@22-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+Apr 14, 2025 2:31:22 A.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 14, 2025 2:31:22 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:31:23 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:31:23 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 3 transactions from DB
+Apr 14, 2025 2:33:35 A.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 14, 2025 2:33:35 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:33:36 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:33:36 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 3 transactions from DB
+Apr 14, 2025 2:36:37 A.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 14, 2025 2:36:38 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:36:38 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:36:38 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 3 transactions from DB
+Apr 14, 2025 2:37:04 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:37:04 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:37:04 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 3 transactions from DB
+Apr 14, 2025 2:39:45 A.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 14, 2025 2:39:45 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:39:46 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:39:46 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 3 transactions from DB
+Apr 14, 2025 2:39:48 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:39:48 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:39:48 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:39:48 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:39:48 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Food for 0/2024 is 0.0
+Apr 14, 2025 2:39:48 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:39:48 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:39:48 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Bills for 0/2024 is 0.0
+Apr 14, 2025 2:39:48 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:39:48 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:39:48 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchBudgets
+SEVERE: Failed to fetch budgets
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near "limit": syntax error)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.newSQLException(DB.java:1179)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.newSQLException(DB.java:1190)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.throwex(DB.java:1150)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.NativeDB.prepare(NativeDB.java:135)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.prepare(DB.java:264)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:46)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:32)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:34)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:225)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+	at com.example.apd545_final_project/com.example.apd545_final_project.database.DatabaseHandler.fetchBudgets(DatabaseHandler.java:207)
+	at com.example.apd545_final_project/com.example.apd545_final_project.controller.CategorizationSummaryController.loadBudgetTable(CategorizationSummaryController.java:60)
+	at com.example.apd545_final_project/com.example.apd545_final_project.controller.CategorizationSummaryController.initialize(CategorizationSummaryController.java:33)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@22-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@22-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2693)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2568)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader.load(FXMLLoader.java:2536)
+	at com.example.apd545_final_project/com.example.apd545_final_project.controller.DashboardController.viewSummary(DashboardController.java:131)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@22-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@22-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1860)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1731)
+	at javafx.base@22-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@22-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@22-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@22-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@22-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.controls@22-ea/javafx.scene.control.MenuItem.fire(MenuItem.java:459)
+	at javafx.controls@22-ea/com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.doSelect(ContextMenuContent.java:1415)
+	at javafx.controls@22-ea/com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.lambda$createChildren$12(ContextMenuContent.java:1368)
+	at javafx.base@22-ea/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@22-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@22-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@22-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@22-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@22-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@22-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@22-ea/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@22-ea/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@22-ea/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@22-ea/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@22-ea/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@22-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@22-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+Apr 14, 2025 2:42:48 A.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 14, 2025 2:42:48 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:42:49 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:42:49 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 3 transactions from DB
+Apr 14, 2025 2:42:50 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:42:50 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:42:50 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:42:50 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:42:50 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Food for 0/2024 is 0.0
+Apr 14, 2025 2:42:50 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:42:50 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:42:50 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Bills for 0/2024 is 0.0
+Apr 14, 2025 2:42:50 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:42:50 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:42:50 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchBudgets
+SEVERE: Failed to fetch budgets
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near "limit": syntax error)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.newSQLException(DB.java:1179)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.newSQLException(DB.java:1190)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.throwex(DB.java:1150)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.NativeDB.prepare(NativeDB.java:135)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.prepare(DB.java:264)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:46)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:32)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:34)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:225)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+	at com.example.apd545_final_project/com.example.apd545_final_project.database.DatabaseHandler.fetchBudgets(DatabaseHandler.java:207)
+	at com.example.apd545_final_project/com.example.apd545_final_project.controller.CategorizationSummaryController.loadBudgetTable(CategorizationSummaryController.java:66)
+	at com.example.apd545_final_project/com.example.apd545_final_project.controller.CategorizationSummaryController.initialize(CategorizationSummaryController.java:39)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@22-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@22-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2693)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2568)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader.load(FXMLLoader.java:2536)
+	at com.example.apd545_final_project/com.example.apd545_final_project.controller.DashboardController.viewSummary(DashboardController.java:131)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@22-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@22-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1860)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1731)
+	at javafx.base@22-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@22-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@22-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@22-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@22-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.controls@22-ea/javafx.scene.control.MenuItem.fire(MenuItem.java:459)
+	at javafx.controls@22-ea/com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.doSelect(ContextMenuContent.java:1415)
+	at javafx.controls@22-ea/com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.lambda$createChildren$12(ContextMenuContent.java:1368)
+	at javafx.base@22-ea/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@22-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@22-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@22-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@22-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@22-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@22-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@22-ea/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@22-ea/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@22-ea/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@22-ea/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@22-ea/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@22-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@22-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+Apr 14, 2025 2:49:34 A.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 14, 2025 2:49:34 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:49:35 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:49:35 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 3 transactions from DB
+Apr 14, 2025 2:49:37 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:49:37 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:49:37 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:49:37 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:49:37 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Food for 0/2024 is 0.0
+Apr 14, 2025 2:49:37 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:49:37 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:49:37 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Bills for 0/2024 is 0.0
+Apr 14, 2025 2:49:37 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:49:37 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:49:37 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchBudgets
+INFO: Fetched 0 budget entries from DB
+Apr 14, 2025 2:50:29 A.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 14, 2025 2:50:29 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:50:29 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:50:29 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 3 transactions from DB
+Apr 14, 2025 2:50:31 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:50:31 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:50:31 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:50:31 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:50:31 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Food for 0/2024 is 0.0
+Apr 14, 2025 2:50:31 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:50:31 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:50:31 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Bills for 0/2024 is 0.0
+Apr 14, 2025 2:50:31 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:50:31 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:50:31 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchBudgets
+INFO: Fetched 0 budget entries from DB
+Apr 14, 2025 2:51:32 A.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 14, 2025 2:51:32 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:51:33 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:51:33 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 3 transactions from DB
+Apr 14, 2025 2:51:34 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:51:34 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:51:34 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:51:34 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:51:34 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Food for 0/2024 is 0.0
+Apr 14, 2025 2:51:34 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:51:34 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:51:34 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Bills for 0/2024 is 0.0
+Apr 14, 2025 2:51:34 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:51:34 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:51:34 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchBudgets
+INFO: Fetched 0 budget entries from DB
+Apr 14, 2025 2:54:07 A.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 14, 2025 2:54:08 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:54:08 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:54:08 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 3 transactions from DB
+Apr 14, 2025 2:54:10 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:54:10 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:54:10 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:54:10 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:54:10 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Food for 0/2024 is 0.0
+Apr 14, 2025 2:54:10 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:54:10 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:54:10 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Bills for 0/2024 is 0.0
+Apr 14, 2025 2:54:10 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:54:10 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:54:10 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchBudgets
+INFO: Fetched 0 budget entries from DB
+Apr 14, 2025 2:55:19 A.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 14, 2025 2:55:19 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:55:19 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:55:19 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 3 transactions from DB
+Apr 14, 2025 2:55:21 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:55:21 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:55:21 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:55:21 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:55:21 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Food for 0/2024 is 0.0
+Apr 14, 2025 2:55:21 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:55:21 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:55:21 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Bills for 0/2024 is 0.0
+Apr 14, 2025 2:55:21 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:55:21 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:55:21 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchBudgets
+INFO: Fetched 0 budget entries from DB
+Apr 14, 2025 2:58:12 A.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 14, 2025 2:58:13 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 2:58:13 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 2:58:13 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 3 transactions from DB
+Apr 14, 2025 3:00:22 A.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 14, 2025 3:00:22 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:00:22 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:00:22 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 3 transactions from DB
+Apr 14, 2025 3:00:30 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:00:30 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:00:30 A.M. com.example.apd545_final_project.database.DatabaseHandler insertOrUpdateBudget
+SEVERE: Failed to insert/update budget
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near "limit": syntax error)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.newSQLException(DB.java:1179)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.newSQLException(DB.java:1190)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.throwex(DB.java:1150)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.NativeDB.prepare(NativeDB.java:135)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.DB.prepare(DB.java:264)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:46)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:32)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:34)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:225)
+	at org.xerial.sqlitejdbc@3.49.1.0/org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+	at com.example.apd545_final_project/com.example.apd545_final_project.database.DatabaseHandler.insertOrUpdateBudget(DatabaseHandler.java:225)
+	at com.example.apd545_final_project/com.example.apd545_final_project.controller.UpdateBudgetController.handleSave(UpdateBudgetController.java:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@22-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@22-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1860)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1731)
+	at javafx.base@22-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@22-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@22-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@22-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@22-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@22-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@22-ea/javafx.scene.Node.fireEvent(Node.java:8889)
+	at javafx.controls@22-ea/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls@22-ea/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207)
+	at javafx.controls@22-ea/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base@22-ea/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@22-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@22-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@22-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@22-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@22-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@22-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@22-ea/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@22-ea/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@22-ea/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@22-ea/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@22-ea/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@22-ea/com.sun.glass.ui.win.WinApplication._enterNestedEventLoopImpl(Native Method)
+	at javafx.graphics@22-ea/com.sun.glass.ui.win.WinApplication._enterNestedEventLoop(WinApplication.java:212)
+	at javafx.graphics@22-ea/com.sun.glass.ui.Application.enterNestedEventLoop(Application.java:515)
+	at javafx.graphics@22-ea/com.sun.glass.ui.EventLoop.enter(EventLoop.java:107)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.QuantumToolkit.enterNestedEventLoop(QuantumToolkit.java:650)
+	at javafx.graphics@22-ea/javafx.stage.Stage.showAndWait(Stage.java:469)
+	at com.example.apd545_final_project/com.example.apd545_final_project.controller.DashboardController.openUpdateBudget(DashboardController.java:154)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at javafx.base@22-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270)
+	at javafx.fxml@22-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1860)
+	at javafx.fxml@22-ea/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1731)
+	at javafx.base@22-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@22-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@22-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@22-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@22-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.controls@22-ea/javafx.scene.control.MenuItem.fire(MenuItem.java:459)
+	at javafx.controls@22-ea/com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.doSelect(ContextMenuContent.java:1415)
+	at javafx.controls@22-ea/com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.lambda$createChildren$12(ContextMenuContent.java:1368)
+	at javafx.base@22-ea/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@22-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@22-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232)
+	at javafx.base@22-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189)
+	at javafx.base@22-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@22-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@22-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@22-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@22-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@22-ea/javafx.scene.Scene$MouseHandler.process(Scene.java:3984)
+	at javafx.graphics@22-ea/javafx.scene.Scene.processMouseEvent(Scene.java:1890)
+	at javafx.graphics@22-ea/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@22-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@22-ea/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@22-ea/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@22-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@22-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+Apr 14, 2025 3:03:04 A.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 14, 2025 3:03:04 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:03:05 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:03:05 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 3 transactions from DB
+Apr 14, 2025 3:03:11 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:03:11 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:03:11 A.M. com.example.apd545_final_project.database.DatabaseHandler insertOrUpdateBudget
+INFO: Budget inserted/updated for category: Food
+Apr 14, 2025 3:04:51 A.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 14, 2025 3:04:51 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:04:51 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:04:51 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 3 transactions from DB
+Apr 14, 2025 3:04:54 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:04:54 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:04:54 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:04:54 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:04:54 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Food for 0/2024 is 0.0
+Apr 14, 2025 3:04:54 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:04:54 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:04:54 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Bills for 0/2024 is 0.0
+Apr 14, 2025 3:04:54 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:04:54 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:04:54 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchBudgets
+INFO: Fetched 1 budget entries from DB
+Apr 14, 2025 3:06:59 A.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 14, 2025 3:06:59 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:06:59 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:06:59 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 3 transactions from DB
+Apr 14, 2025 3:07:01 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:07:01 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:07:01 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:07:01 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:07:01 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Food for 0/2024 is 0.0
+Apr 14, 2025 3:07:01 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:07:01 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:07:01 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Bills for 0/2024 is 0.0
+Apr 14, 2025 3:07:01 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:07:01 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:07:01 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchBudgets
+INFO: Fetched 1 budget entries from DB
+Apr 14, 2025 3:09:14 A.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 14, 2025 3:09:14 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:09:15 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:09:15 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 3 transactions from DB
+Apr 14, 2025 3:09:27 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:09:27 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:09:27 A.M. com.example.apd545_final_project.database.DatabaseHandler insertOrUpdateBudget
+INFO: Budget inserted/updated for category: Bills
+Apr 14, 2025 3:09:35 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:09:35 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:09:35 A.M. com.example.apd545_final_project.database.DatabaseHandler insertOrUpdateBudget
+INFO: Budget inserted/updated for category: Transport
+Apr 14, 2025 3:09:45 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:09:45 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:09:45 A.M. com.example.apd545_final_project.database.DatabaseHandler insertOrUpdateBudget
+INFO: Budget inserted/updated for category: Rent
+Apr 14, 2025 3:09:47 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:09:47 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:09:47 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:09:47 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:09:47 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Food for 0/2024 is 0.0
+Apr 14, 2025 3:09:47 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:09:47 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:09:47 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Bills for 0/2024 is 0.0
+Apr 14, 2025 3:09:47 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:09:47 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:09:47 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchBudgets
+INFO: Fetched 4 budget entries from DB
+Apr 14, 2025 3:10:00 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:10:00 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:10:00 A.M. com.example.apd545_final_project.database.DatabaseHandler insertTransaction
+INFO: Transaction inserted successfully
+Apr 14, 2025 3:10:00 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:10:00 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:10:00 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 4 transactions from DB
+Apr 14, 2025 3:10:09 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:10:09 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:10:09 A.M. com.example.apd545_final_project.database.DatabaseHandler insertTransaction
+INFO: Transaction inserted successfully
+Apr 14, 2025 3:10:09 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:10:09 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:10:09 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 5 transactions from DB
+Apr 14, 2025 3:10:12 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:10:12 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:10:12 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:10:12 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:10:12 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Food for 0/2024 is 0.0
+Apr 14, 2025 3:10:12 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:10:12 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:10:12 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Bills for 0/2024 is 0.0
+Apr 14, 2025 3:10:12 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:10:12 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:10:12 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Other for 0/2024 is 0.0
+Apr 14, 2025 3:10:12 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:10:12 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:10:12 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchBudgets
+INFO: Fetched 4 budget entries from DB
+Apr 14, 2025 3:16:37 A.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 14, 2025 3:16:37 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:16:38 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:16:38 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 5 transactions from DB
+Apr 14, 2025 3:16:41 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:16:41 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:16:41 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:16:41 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:16:41 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Food for 4/2025 is 1700.0
+Apr 14, 2025 3:16:41 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:16:41 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:16:41 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Bills for 4/2025 is 1500.0
+Apr 14, 2025 3:16:41 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:16:41 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:16:41 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Other for 4/2025 is 0.0
+Apr 14, 2025 3:16:41 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:16:41 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:16:41 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchBudgets
+INFO: Fetched 4 budget entries from DB
+Apr 14, 2025 3:21:17 A.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 14, 2025 3:21:17 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:21:18 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:21:18 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 5 transactions from DB
+Apr 14, 2025 3:21:21 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:21:21 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:21:21 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:21:21 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:21:21 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Food for 4/2025 is 1700.0
+Apr 14, 2025 3:21:21 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:21:21 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:21:21 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Bills for 4/2025 is 1500.0
+Apr 14, 2025 3:21:21 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:21:21 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:21:21 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Other for 4/2025 is 0.0
+Apr 14, 2025 3:21:21 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:21:21 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:21:21 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchBudgets
+INFO: Fetched 4 budget entries from DB
+Apr 14, 2025 3:21:21 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:21:21 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:21:21 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Food for 4/2025 is 1700.0
+Apr 14, 2025 3:21:21 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:21:21 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:21:21 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Bills for 4/2025 is 1500.0
+Apr 14, 2025 3:21:21 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:21:21 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:21:21 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Transport for 4/2025 is 0.0
+Apr 14, 2025 3:21:21 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:21:21 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:21:21 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Rent for 4/2025 is 0.0
+Apr 14, 2025 3:25:14 A.M. com.example.apd545_final_project.database.DatabaseHandler setupLogger
+INFO: Logger initialized for DatabaseHandler
+Apr 14, 2025 3:25:15 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:25:15 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:25:15 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 5 transactions from DB
+Apr 14, 2025 3:25:17 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:25:17 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:25:17 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:25:17 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:25:17 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Food for 4/2025 is 1700.0
+Apr 14, 2025 3:25:17 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:25:17 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:25:17 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Bills for 4/2025 is 1500.0
+Apr 14, 2025 3:25:17 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:25:17 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:25:17 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Other for 4/2025 is 0.0
+Apr 14, 2025 3:25:17 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:25:17 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:25:17 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:25:17 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:25:17 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Food for 4/2025 is 1700.0
+Apr 14, 2025 3:25:17 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:25:17 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:25:17 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Bills for 4/2025 is 1500.0
+Apr 14, 2025 3:25:17 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:25:17 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:25:17 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Transport for 4/2025 is 0.0
+Apr 14, 2025 3:25:17 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 3:25:17 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 3:25:17 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Rent for 4/2025 is 0.0
+Apr 14, 2025 4:10:04 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 4:10:04 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 4:10:04 A.M. com.example.apd545_final_project.database.DatabaseHandler insertTransaction
+INFO: Transaction inserted successfully
+Apr 14, 2025 4:10:04 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 4:10:04 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 4:10:04 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 6 transactions from DB
+Apr 14, 2025 4:12:40 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 4:12:40 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 4:12:40 A.M. com.example.apd545_final_project.database.DatabaseHandler updateTransaction
+INFO: Transaction Updated successfully
+Apr 14, 2025 4:12:40 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 4:12:40 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 4:12:40 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 6 transactions from DB
+Apr 14, 2025 4:15:20 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 4:15:20 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 4:15:20 A.M. com.example.apd545_final_project.database.DatabaseHandler insertOrUpdateBudget
+INFO: Budget inserted/updated for category: Other
+Apr 14, 2025 4:17:08 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 4:17:08 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 4:17:08 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 4:17:08 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 4:17:08 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Food for 4/2025 is 1700.0
+Apr 14, 2025 4:17:08 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 4:17:08 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 4:17:08 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Bills for 4/2025 is 1500.0
+Apr 14, 2025 4:17:08 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 4:17:08 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 4:17:08 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Other for 4/2025 is 0.0
+Apr 14, 2025 4:17:08 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 4:17:08 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 4:17:08 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Healthcare for 4/2025 is 2500.0
+Apr 14, 2025 4:17:08 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 4:17:08 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 4:17:08 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 4:17:08 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 4:17:08 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Food for 4/2025 is 1700.0
+Apr 14, 2025 4:17:08 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 4:17:08 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 4:17:08 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Bills for 4/2025 is 1500.0
+Apr 14, 2025 4:17:08 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 4:17:08 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 4:17:08 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Transport for 4/2025 is 0.0
+Apr 14, 2025 4:17:08 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 4:17:08 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 4:17:08 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Rent for 4/2025 is 0.0
+Apr 14, 2025 4:17:08 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 4:17:08 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 4:17:08 A.M. com.example.apd545_final_project.database.DatabaseHandler getSpentAmount
+INFO: Total spent in Other for 4/2025 is 0.0
+Apr 14, 2025 4:20:27 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 4:20:27 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 4:20:27 A.M. com.example.apd545_final_project.database.DatabaseHandler deleteTransaction
+INFO: Transaction Deleted successfully
+Apr 14, 2025 4:20:27 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Establishing connection to SQLite...
+Apr 14, 2025 4:20:27 A.M. com.example.apd545_final_project.database.DatabaseHandler getConnection
+INFO: Connection established successfully
+Apr 14, 2025 4:20:27 A.M. com.example.apd545_final_project.database.DatabaseHandler fetchTransactions
+INFO: Fetched 5 transactions from DB
