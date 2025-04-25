@@ -72,23 +72,25 @@ src/
 
 ## 🗄️ Database Schema
 
+For full schema details, [📄 download the PDF](./docs/DatabaseSchema.pdf).
+
 **Table: `transactions`**
 ```sql
 CREATE TABLE IF NOT EXISTS transactions (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    type TEXT NOT NULL,
-    date TEXT NOT NULL,
-    amount REAL NOT NULL,
-    category TEXT NOT NULL,
-    description TEXT
+    id INTEGER PRIMARY KEY AUTOINCREMENT,      -- Auto-incremented transaction ID
+    type TEXT NOT NULL,                        -- Type of transaction: 'Income' or 'Expense'
+    date TEXT NOT NULL,                        -- Date of transaction in 'YYYY-MM-DD' format
+    amount REAL NOT NULL,                      -- Amount of the transaction
+    category TEXT NOT NULL,                    -- Category (e.g., 'Groceries', 'Entertainment')
+    description TEXT                           -- Optional description of the transaction
 );
 ```
 
 **Table: `budgets`**
 ```sql
 CREATE TABLE IF NOT EXISTS budgets (
-    category TEXT PRIMARY KEY,
-    budget_limit REAL NOT NULL
+    category TEXT PRIMARY KEY,                 -- Category name (e.g., 'Groceries', 'Utilities')
+    budget_limit REAL NOT NULL                 -- Budget limit for the category
 );
 ```
 
@@ -118,7 +120,17 @@ CREATE TABLE IF NOT EXISTS budgets (
 ---
 
 ## 📸 Screenshots
+- Dashboard View
 
+- Add Transaction Page
+
+- Edit Transaction Page (Before & After Update)
+
+- Category Budget Update Page
+
+- Categorized Summary View
+
+- Delete Transaction Confirmation
 
 ---
 
