@@ -120,17 +120,51 @@ CREATE TABLE IF NOT EXISTS budgets (
 ---
 
 ## 📸 Screenshots
-- Dashboard View
 
-- Add Transaction Page
+### 📊 Dashboard View
+<img src="./docs/img/dashboardView.jpg" width="600"/>
 
-- Edit Transaction Page (Before & After Update)
+---
 
-- Category Budget Update Page
+### ➕ Add Transaction Page
+<div align="center">
+  <img src="./docs/img/addTransactionPage1.jpg" width="45%" style="margin-right: 10px;"/>
+  <img src="./docs/img/addTransactionPage2.jpg" width="45%"/>
+</div>
 
-- Categorized Summary View
+---
 
-- Delete Transaction Confirmation
+### ✏️ Edit Transaction Page (Before & After Update)
+<div align="center">
+  <img src="./docs/img/editTransactionPage1.jpg" width="30%" style="margin-right: 10px;"/>
+  <img src="./docs/img/editTransactionPage2.jpg" width="30%" style="margin-right: 10px;"/>
+  <img src="./docs/img/editTransactionPage3.jpg" width="30%"/>
+</div>
+
+---
+
+### 🧾 Category Budget Update Page
+<div align="center">
+  <img src="./docs/img/budgetUpdatePage1.jpg" width="45%" style="margin-right: 10px;"/>
+  <img src="./docs/img/budgetUpdatePage2.jpg" width="45%"/>
+</div>
+
+---
+
+### 📂 Categorized Summary View
+<div align="center">
+  <img src="./docs/img/categorizedSummaryView1.jpg" width="45%" style="margin-right: 10px;"/>
+  <img src="./docs/img/categorizedSummaryView2.jpg" width="45%"/>
+</div>
+
+---
+
+### ❌ Delete Transaction Confirmation
+<div align="center">
+  <img src="./docs/img/deleteTransaction1.jpg" width="45%" style="margin-right: 10px;"/>
+  <img src="./docs/img/deleteTransaction2.jpg" width="45%"/>
+</div>
+
 
 ---
 
